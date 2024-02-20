@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.cabecalho__lista {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista-menu {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 2em;
+}
+
+.lista-menu__links {
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}

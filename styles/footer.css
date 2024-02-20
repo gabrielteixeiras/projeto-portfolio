@@ -1,0 +1,22 @@
+@charset "UTF-8";   
+
+.rodape {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+
+    font-family: var(--font-secundaria);
+    font-size: 1rem;
+    padding: 14px 0px;
+    text-align: center;
+}
+
+.rodape__link {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.rodape__link:hover {
+    text-decoration: underline;
+}

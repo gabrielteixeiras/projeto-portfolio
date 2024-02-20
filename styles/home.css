@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.container-apresentacao {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.container__image {
+    width: 50%;
+    border-radius: 20px;
+    margin-top: 2.5em;
+}
+
+.apresentacao__titulo {
+    font-family: var(--fonte-primaria);
+    font-size: 1.3rem;
+    line-height: 1.3em;
+
+    padding: 0 1.5em;
+}
+
+.apresentacao__negrito {
+    color: var(--cor-secundaria);
+}
+
+.apresentacao__texto {
+    font-size: 1.2rem;
+    line-height: 1.2em;
+
+    padding: 0 2em;
+}
+
+.container-apresentacao-botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.botoes__texto {
+    font-family: var(--fonte-primaria);
+    font-size: 1.2rem;
+    margin: 0 2em;
+}
+
+.botoes__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+
+    font-family: var(--fonte-secundaria);
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--cor-terciaria);
+
+    width: 50%;
+    padding: 1em;
+
+    border: 2px solid var(--cor-secundaria);
+    border-radius: 8px;
+}
+
+.links__images {
+    width: 2em;
+}
+
+.botao-whatsapp {
+    margin-bottom: 2em;
+}
