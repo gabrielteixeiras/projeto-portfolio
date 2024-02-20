@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+.container-curriculo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+
+    margin: 0 1em;
+}
+
+.curriculo__titulo {
+    font-family: var(--fonte-primaria);
+    font-size: 2rem;
+    color: var(--cor-secundaria);
+
+    margin-top: 1em;
+}
+
+.curriculo__texto {
+    font-size: 1.1rem;
+    line-height: 1.2em;
+}
+
+.curriculo-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+    text-align: left;
+    list-style-type: disc;
+
+    margin: 1em;
+}
+
+.lista__cursos {
+    font-size: 1.2rem;
+    line-height: 1.3em;
+}
+
+.lista__cursos__links {
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-weight: 600;
+}
+
+.curriculo__link {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--cor-terciaria);
+
+    width: 80%;
+    padding: 1em;
+    margin: 2em 0;
+
+    border: 2px solid var(--cor-secundaria);
+    border-radius: 8px;
+}
