@@ -2,13 +2,13 @@
 
 .cabecalho__lista {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .lista-menu {
     font-size: 1rem;
     font-weight: 600;
-    margin: 2em;
+    margin: 1em;
 }
 
 .lista-menu__links {
