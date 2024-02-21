@@ -5,8 +5,9 @@
 @import url("curriculo.css");
 @import url("sobre.css");
 @import url("projetos.css");
+@import url("todos-projetos.css");
 
-@import url("social.css");
+@import url("../media-queries/min-1224px.css");
 
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&family=Raleway:wght@200&display=swap');
 

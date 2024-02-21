@@ -5,7 +5,7 @@
     flex-direction: column-reverse;
     text-align: center;
     align-items: center;
-    gap: 2em;
+    gap: 1em;
 }
 
 .container-apresentacao {
@@ -15,7 +15,7 @@
 }
 
 .container__image {
-    width: 50%;
+    width: 40%;
     border-radius: 20px;
     margin-top: 2.5em;
 }
@@ -43,6 +43,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     gap: 1em;
 }
 
@@ -64,7 +65,7 @@
     text-decoration: none;
     color: var(--cor-terciaria);
 
-    width: 50%;
+    width: 40%;
     padding: 1em;
 
     border: 2px solid var(--cor-secundaria);

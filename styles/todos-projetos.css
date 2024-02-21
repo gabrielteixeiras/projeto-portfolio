@@ -63,3 +63,12 @@
     border: 2px solid var(--cor-secundaria);
     border-radius: 8px;
 }
+
+.todos-projetos__tela-social {
+    position: absolute;
+    border-color: var(--cor-secundaria);
+    border-radius: 50%; /* CSS3 */
+    -moz-border-radius: 10px; /* Firefox */  
+    -webkit-border-radius: 10px; /* Safari, Chrome */
+    overflow: hidden;
+}

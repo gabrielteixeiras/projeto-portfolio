@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1224px) {  
+    /* HEADER */
+    .lista-menu {
+        font-size: 1.2rem;
+        margin: 3em 2em 2em 2em;
+    }
+
+    .lista-menu__links:hover {
+        text-decoration: underline;
+        font-size: 1.3rem;
+        transition: .5s;
+    }
+
+    /* HOME */
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 2em;
+        gap: 10em;
+    }
+
+    .container-apresentacao {
+        text-align: left;
+        width: 50%;
+    }
+
+    .container__image {
+        margin-right: 2em;
+        margin-top: 0;
+    }
+
+    .apresentacao__titulo {
+        font-size: 2rem;
+    
+        padding-left: 1.5em;
+    }
+
+    .apresentacao__texto {
+        font-size: 1.5rem;
+        line-height: 1.2em;
+
+        padding-right: 0;
+    }
+
+    .botoes__texto {
+        font-size: 1.5rem;
+        margin: 1em;
+    }
+
+    .botoes__links {   
+        font-size: 1.5rem;
+    
+        padding: .5em;
+    }
+
+    .botoes__links:hover {
+        padding: .8em;
+        transition: .5s;
+    }
+
+    /* SOBRE */
+    .container-sobre {
+        margin-top: 2em;
+    }
+
+    /* Currículo */
+    .container-curriculo {
+        margin: 0 3em;
+    }
+
+    .curriculo__texto {
+        font-size: 1.5em;
+    }
+
+    /* Projetos */
+    .projetos-container {
+        display: flex;
+        flex-direction: column-reverse;
+
+        margin-top: 3em;
+    }
+
+    .projetos__titulo {
+        font-size: 3rem;
+    }
+
+    .projetos-lista {
+        margin-left: 5em;
+    }
+
+    .lista__menu__titulo {
+        font-size: 2rem;
+    }
+
+    .lista-menu__images {
+        width: 70%;
+    }
+
+
+    /* FOOTER */
+    .rodape {
+        margin-top: 2em;
+    }
+}
