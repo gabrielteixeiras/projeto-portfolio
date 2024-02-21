@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1440px) {
+
+    /* CONTAINER */
+    .container {
+        padding: 5% 15%;
+
+    }
+
+    /* HOME */
+    .botoes__links {
+        width: 50%;
+    }
+
+    /* PROJETOS */
+    .container-projetos {
+        margin: 0;
+    }
+
+    .projetos-container {
+        padding: 0;
+    }
+    
+    .projetos__titulo {
+        padding-top: 0;
+    }
+
+    .projetos-lista {    
+        list-style-type: none;
+        margin-left: 0;
+    }
+
+    .projetos-lista__menu {
+        text-align: center;
+        margin: 1em 1em;
+    }
+    
+    .lista__menu__titulo {
+        font-size: 1.5rem;
+    }
+    
+    .lista-menu__images {
+        margin-top: 1em;
+        width: 50%;
+    }
+
+
+    /* TODOS-PROJETOS */ 
+    .todos-projetos__titulo {
+        font-size: 2rem;    
+        margin: 0 2em 0 2em;
+    }
+    
+    .todos-projetos__texto {
+        font-size: 1.5rem;
+    }
+    
+    .todos-projetos__botao {
+        font-size: 1.1rem;
+        font-weight: 600;
+        text-decoration: none;
+        color: var(--cor-terciaria);
+    
+        width: 50%;
+        padding: 1em;
+        margin-bottom: 2em;
+    
+        border: 2px solid var(--cor-secundaria);
+        border-radius: 8px;
+    }
+    
+}
