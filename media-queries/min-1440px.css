@@ -55,19 +55,17 @@
     .todos-projetos__texto {
         font-size: 1.5rem;
     }
+
+    .todos-projetos__image-acesso {
+        font-size: .8em;
+    }
+    
+    .todos-projetos__texto-final {
+        font-size: .8rem;
+    }
     
     .todos-projetos__botao {
-        font-size: 1.1rem;
-        font-weight: 600;
-        text-decoration: none;
-        color: var(--cor-terciaria);
-    
         width: 50%;
-        padding: 1em;
-        margin-bottom: 2em;
-    
-        border: 2px solid var(--cor-secundaria);
-        border-radius: 8px;
     }
     
 }
