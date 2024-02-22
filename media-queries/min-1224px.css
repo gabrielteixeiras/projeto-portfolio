@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 1224px) {  
+@media screen and (min-width: 1224px) {
+
     /* HEADER */
     .lista-menu {
         font-size: 1.2rem;
@@ -13,27 +14,23 @@
         transition: .5s;
     }
 
-    /* HOME */
+    /* CONTAINER */
     .container {
         flex-direction: row;
         justify-content: space-between;
         margin-top: 2em;
+        padding: 5% 10%;
         gap: 10em;
     }
 
-    .container-apresentacao {
-        text-align: left;
-        width: 50%;
-    }
-
+    /* HOME */
     .container__image {
-        margin-right: 2em;
         margin-top: 0;
     }
 
     .apresentacao__titulo {
         font-size: 2rem;
-    
+
         padding-left: 1.5em;
     }
 
@@ -49,10 +46,11 @@
         margin: 1em;
     }
 
-    .botoes__links {   
+    .botoes__links {
         font-size: 1.5rem;
     
         padding: .5em;
+        width: 50%;
     }
 
     .botoes__links:hover {
@@ -60,45 +58,67 @@
         transition: .5s;
     }
 
-    /* SOBRE */
-    .container-sobre {
-        margin-top: 2em;
-    }
-
-    /* Currículo */
-    .container-curriculo {
-        margin: 0 3em;
-    }
-
+    /* CURRÍCULO */
     .curriculo__texto {
         font-size: 1.5em;
     }
 
-    /* Projetos */
-    .projetos-container {
-        display: flex;
-        flex-direction: column-reverse;
-
-        margin-top: 3em;
+    /* PROJETOS */
+    .container-projetos {
+        margin: 0;
     }
 
+    .projetos-container {
+        padding: 0;
+    }
+    
     .projetos__titulo {
         font-size: 3rem;
+        padding-top: 0;
     }
 
-    .projetos-lista {
-        margin-left: 5em;
+    .projetos-lista {    
+        list-style-type: none;
+        margin-left: 0;
     }
 
+    .projetos-lista__menu {
+        text-align: center;
+        margin: 1em 1em;
+    }
+    
     .lista__menu__titulo {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
-
+    
     .lista-menu__images {
-        width: 70%;
+        margin-top: 1em;
+        width: 50%;
     }
 
 
+    /* TODOS-PROJETOS */ 
+    .todos-projetos__titulo {
+        font-size: 2rem;    
+        margin: 0 2em 0 2em;
+    }
+    
+    .todos-projetos__texto {
+        font-size: 1.5rem;
+    }
+
+    .todos-projetos__image-acesso {
+        font-size: .8em;
+    }
+    
+    .todos-projetos__texto-final {
+        font-size: .8rem;
+    }
+    
+    .todos-projetos__botao {
+        width: 50%;
+    }
+    
     /* FOOTER */
     .rodape {
         margin-top: 2em;
