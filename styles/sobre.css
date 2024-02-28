@@ -13,6 +13,7 @@
     font-family: var(--fonte-primaria);
     font-size: 2rem;
     color: var(--cor-secundaria);
+    margin-bottom: .5em;
 }
 
 .sobre__texto {

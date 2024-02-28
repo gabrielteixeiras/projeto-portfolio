@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 2000px) {
+
+    /* HEADER */
+    .cabecalho__lista {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+    }
+
+    .lista-menu {
+        font-size: 2rem;
+    }
+
+    /* HOME */
+    .apresentacao__titulo {
+        font-size: 3rem;    
+        padding: 0 20%;
+    }
+
+    .apresentacao__texto {
+        font-size: 2rem;    
+        line-height: 1.5em;
+        padding: 0 20%;
+    }
+
+    .botoes__texto {
+        font-size: 2.5rem;
+    }
+
+    .botoes__links {    
+        font-size: 2rem;    
+        width: 40%;
+        padding: .5em;
+        border-radius: .5em;
+    }
+    
+    .links__images {
+        width: 2em;
+    }
+    
+    .botao-whatsapp {
+        margin-bottom: 2em;
+    }
+
+    /* SOBRE */
+    .container-sobre {
+        gap: 3em;
+    }
+
+    .sobre__titulo {
+        font-size: 3rem;
+    }
+
+    .sobre__texto {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+        padding: 0 10%;
+    }
+
+    /* CURRÍCULO */
+    .container-curriculo {
+        gap: 3em;
+    }
+
+    .curriculo__titulo {
+        font-size: 3rem;
+        margin-top: 0;
+    }
+
+    .curriculo__texto {
+        font-size: 1.8rem;
+        line-height: 1.8em;
+        padding: 0 10%;
+    }
+
+    .lista__cursos {
+        font-size: 1.5rem;
+        line-height: 1.8em;
+    }
+
+    .curriculo__link {
+        font-size: 1.8rem;
+        margin: 0;
+    }
+
+    /* PROJETOS */
+    .container-projetos {
+        display: block;
+        text-align: center;
+
+        margin: 0 15%;
+    }
+
+    .projetos__titulo {
+        font-size: 3rem;
+        padding-bottom: 0;
+        padding-top: 1em;
+    }
+
+    .projetos-lista__menu {
+        padding: 2em;
+        margin: 0;
+    }
+
+    .lista__menu__titulo {
+        padding-top: 5em;
+        font-size: 2.5rem;
+    }
+
+    .lista-menu__images {
+        width: 100%;
+    }
+
+    /* TODOS-PROJETOS */ 
+    .todos-projetos__titulo {
+        font-size: 3rem;    
+    }
+
+    .todos-projetos__texto {
+        font-size: 2em;
+        padding: 0 10%;
+    }
+
+    .todos-projetos__image-acesso {
+        font-size: 1.5rem;
+    }
+
+    .todos-projetos__texto-final {
+        font-size: 1.5rem;
+    }
+
+    .todos-projetos__botao {
+        font-size: 1.8rem;
+        width: 80%;
+        padding: 1.1em;
+        margin: 0 10%;
+    }
+
+    /* FOOTER */
+    .rodape {    
+        font-size: 2rem;
+    }
+}
