@@ -66,9 +66,26 @@
         transition: .5s;
     }
 
+    /* SOBRE */
+    .container-sobre {
+        gap: 3em;
+    }
+
+    .sobre__titulo {
+        font-size: 2.5rem;
+    }
+
+    .sobre__texto {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        padding: 0 10%;
+    }
+
     /* CURRÍCULO */
     .curriculo__texto {
         font-size: 1.5em;
+        line-height: 1.8em;
+        padding: 0 10%;
     }
 
     /* PROJETOS */
@@ -103,7 +120,6 @@
         margin-top: 1em;
         width: 50%;
     }
-
 
     /* TODOS-PROJETOS */ 
     .todos-projetos__titulo {
