@@ -93,15 +93,13 @@
         margin: 0 15%;
     }
 
-    .projetos__titulo {
-        font-size: 3rem;
-        padding-bottom: 0;
-        padding-top: 1em;
-    }
-
     .projetos-lista__menu {
         padding: 2em;
         margin: 0;
+    }
+
+    .primeiro-titulo{
+        padding-top: 1em;
     }
 
     .lista__menu__titulo {

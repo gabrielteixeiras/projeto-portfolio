@@ -10,16 +10,6 @@
     margin: 0 1em;
 }
 
-.projetos__titulo {
-    font-family: var(--fonte-primaria);
-    font-size: 2rem;
-
-    color: var(--cor-secundaria);
-
-    padding-bottom: 2em;
-    padding-top: 2em;
-}
-
 .projetos-lista {
     display: flex;
     flex-direction: column;
@@ -33,6 +23,10 @@
 
 .projetos-lista__menu {
     margin: 1em 1em;
+}
+
+.primeiro-titulo{
+    padding-top: 2em;
 }
 
 .lista__menu__titulo {
