@@ -1,149 +1,17 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 240rem) {
-
-    /* HEADER */
-    .cabecalho__lista {
-        display: flex;
-        justify-content: center;
-        gap: 1em;
-    }
-
-    .lista-menu {
-        font-size: 1.5rem;
-    }
-
-    .lista-menu__links:hover {
-        text-decoration: underline;
-        font-size: 1.6rem;
-        transition: .5s;
-    }
-
-    /* CONTAINER */
-    .container {
-        flex-direction: row;
-        padding: 5% 10%;
-    }
-
-    /* HOME */    
-    .container-apresentacao {
-        padding: 0 5%;
-    }
-    
-    .container__image {
-        margin-top: 0;
-    }
-    
-    .apresentacao__titulo {
-        font-family: var(--fonte-primaria);
-        font-size: 2rem;
-        line-height: 1.3em;
-    
-        padding: 0 10%;
-    }
-    
-    .apresentacao__texto {
-        font-size: 1.5rem;
-        line-height: 1.2em;
-    
-        padding: 0 10%;
-    }
-    
-    .botoes__texto {
-        font-family: var(--fonte-primaria);
-        font-size: 1.5rem;
-        margin: 1em;
-    }
-    
-    .botoes__links {    
-        font-size: 1.5rem;    
-        width: 50%;
-        padding: .5em;
-    }
-
-    .botoes__links:hover {
-        padding: .8em;
-        transition: .5s;
-    }
-
+@media screen and (min-width: 184.37rem) and (max-width: 240.62rem) {
     /* SOBRE */
-    .container-sobre {
-        gap: 3em;
-    }
-
-    .sobre__titulo {
-        font-size: 2.5rem;
-    }
-
     .sobre__texto {
-        font-size: 1.5rem;
-        line-height: 2.5rem;
-        padding: 0 10%;
+        padding: 0 25%;
     }
 
     /* CURRÍCULO */
     .curriculo__texto {
-        font-size: 1.5em;
-        line-height: 1.8em;
-        padding: 0 10%;
+        padding: 0 25%;
     }
 
-    /* PROJETOS */
-    .container-projetos {
-        margin: 0;
-    }
-
-    .projetos-container {
-        padding: 0;
-    }
-
-    .projetos-lista {    
-        list-style-type: none;
-        margin-left: 0;
-    }
-
-    .projetos-lista__menu {
-        text-align: center;
-        margin: 1em 1em;
-    }
-    
-    .primeiro-titulo{
-        padding-top: 5em;
-    }
-
-    .lista__menu__titulo {
-        font-size: 1.5rem;
-    }
-    
-    .lista-menu__images {
-        margin-top: 1em;
+    .curriculo__link {
         width: 50%;
-    }
-
-    /* TODOS-PROJETOS */ 
-    .todos-projetos__titulo {
-        font-size: 2rem;    
-        margin: 0 2em 0 2em;
-    }
-    
-    .todos-projetos__texto {
-        font-size: 1.5rem;
-    }
-
-    .todos-projetos__image-acesso {
-        font-size: .8em;
-    }
-    
-    .todos-projetos__texto-final {
-        font-size: .8rem;
-    }
-    
-    .todos-projetos__botao {
-        width: 50%;
-    }
-    
-    /* FOOTER */
-    .rodape {
-        margin-top: 2em;
     }
 }
